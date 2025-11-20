@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "06",
+  "repository_name": "model-router",
+  "title": "Budget-Aware Model Router",
+  "package": "model_router",
+  "focus": "Learned routing, held-out evaluation, quality-cost tradeoffs",
+  "layout": {
+    "docs_root": "decisions",
+    "tests_root": "test",
+    "tools_root": "tools",
+    "config_root": "policies",
+    "examples_root": "runs",
+    "verifier": "tools/check_routing.py",
+    "source_roots": [
+      "src"
+    ],
+    "documents": {
+      "architecture": "decisions/data-boundaries.md",
+      "design": "decisions/estimators-and-routing.md",
+      "review": "decisions/routing-regressions.md",
+      "experiments": "decisions/offline-evaluations.md",
+      "publishing": "decisions/publishing-runs.md",
+      "validation": "decisions/check-ledger.md"
+    }
+  }
+}
