@@ -1,0 +1,1650 @@
+{
+  "budget_oracle": {
+    "algorithm": "exact_sorted_cheapest_correct_case_unit_value",
+    "budget_units": 180,
+    "case_count": 36,
+    "correct": 33,
+    "selected": [
+      {
+        "case_id": "t08-v1",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t08-v2",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t09-v0",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t09-v1",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t19-v0",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t19-v2",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t28-v0",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t28-v2",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t38-v0",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t38-v1",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t38-v2",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t48-v2",
+        "cost_units": 1,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t58-v2",
+        "cost_units": 2,
+        "model_id": "small"
+      },
+      {
+        "case_id": "t08-v0",
+        "cost_units": 7,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t09-v2",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t18-v0",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t18-v1",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t18-v2",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t19-v1",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t28-v1",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t29-v0",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t29-v1",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t29-v2",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t39-v0",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t39-v1",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t39-v2",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t48-v0",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t48-v1",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t58-v0",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t58-v1",
+        "cost_units": 8,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t49-v0",
+        "cost_units": 9,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t49-v1",
+        "cost_units": 9,
+        "model_id": "large"
+      },
+      {
+        "case_id": "t49-v2",
+        "cost_units": 9,
+        "model_id": "large"
+      }
+    ],
+    "spent_units": 176
+  },
+  "budget_transfer": {
+    "artifact_calibration_budget_units": 180,
+    "different_budget_regime": false,
+    "matching_per_case_calibration_budget_units": 180
+  },
+  "calibration": {
+    "bins": [
+      {
+        "bin": 0,
+        "count": 6,
+        "mean_probability": 0.19957971075972916,
+        "observed_success": 0.0
+      },
+      {
+        "bin": 1,
+        "count": 18,
+        "mean_probability": 0.3338862301478316,
+        "observed_success": 0.2777777777777778
+      },
+      {
+        "bin": 2,
+        "count": 9,
+        "mean_probability": 0.5648215943696501,
+        "observed_success": 0.6666666666666666
+      },
+      {
+        "bin": 4,
+        "count": 3,
+        "mean_probability": 0.8136776850325201,
+        "observed_success": 0.6666666666666666
+      }
+    ],
+    "brier_delta_calibrated_minus_raw": -0.02432359162723552,
+    "brier_score": 0.17729294472085472,
+    "case_count": 36,
+    "ece_5_bins": 0.09902969758305702,
+    "log_loss": 0.5369020083357383,
+    "uncalibrated": {
+      "bins": [
+        {
+          "bin": 1,
+          "count": 9,
+          "mean_probability": 0.3466653402817156,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 2,
+          "count": 15,
+          "mean_probability": 0.462403000153649,
+          "observed_success": 0.3333333333333333
+        },
+        {
+          "bin": 3,
+          "count": 12,
+          "mean_probability": 0.6534521631963021,
+          "observed_success": 0.6666666666666666
+        }
+      ],
+      "brier_score": 0.20161653634809024,
+      "case_count": 36,
+      "ece_5_bins": 0.1448501974023486,
+      "log_loss": 0.5950369090957763
+    }
+  },
+  "cost_unit_description": "Configured integer replay units, not currency or provider billing.",
+  "dataset_sha256": "216052e8106e044493f2c9c47818d9e7b1f13ccd8e45978c4e13a533b6a41357",
+  "evaluation_mode": "simulated",
+  "limitations": [
+    "Default responses/costs are SIMULATED; scores are not provider quality or savings.",
+    "Oracle knows labels and assumes each correct case has unit value.",
+    "Probability fitting and threshold selection reuse calibration labels; test remains held out.",
+    "Artifact metadata is declarative, not proof of an external collector's training process."
+  ],
+  "live_provider_calls_executed": false,
+  "model_evaluation": false,
+  "policies": [
+    {
+      "accuracy": 0.3611111111111111,
+      "answered": 36,
+      "answered_accuracy": 0.3611111111111111,
+      "budget_oracle_correct": 33,
+      "budget_units": 180,
+      "case_count": 36,
+      "correct": 13,
+      "correct_count_regret": 20,
+      "cost_per_correct": 4.153846153846154,
+      "coverage": 1.0,
+      "decisions": [
+        {
+          "case_id": "t08-v0",
+          "correct": false,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t08-v1",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t08-v2",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5722178738003253,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v0",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v1",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v2",
+          "correct": false,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v0",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v1",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v2",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v0",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v1",
+          "correct": false,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v2",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v0",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.800880572840769,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v1",
+          "correct": false,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.8200762411283957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v2",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.8200762411283957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v0",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v1",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v2",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v0",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v1",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v2",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v0",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v1",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v2",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t48-v0",
+          "correct": false,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t48-v1",
+          "correct": false,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t48-v2",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t49-v0",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.19957971075972916,
+          "status": "answered"
+        },
+        {
+          "case_id": "t49-v1",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.19957971075972916,
+          "status": "answered"
+        },
+        {
+          "case_id": "t49-v2",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.19957971075972916,
+          "status": "answered"
+        },
+        {
+          "case_id": "t58-v0",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t58-v1",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t58-v2",
+          "correct": true,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t59-v0",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.19957971075972916,
+          "status": "answered"
+        },
+        {
+          "case_id": "t59-v1",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.19957971075972916,
+          "status": "answered"
+        },
+        {
+          "case_id": "t59-v2",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.19957971075972916,
+          "status": "answered"
+        }
+      ],
+      "policy": "small",
+      "recorded_latency_sum_ms": null,
+      "selected_response_provenance_counts": {
+        "RECORDED": 0,
+        "SIMULATED": 36
+      },
+      "spent_units": 54
+    },
+    {
+      "accuracy": 0.6388888888888888,
+      "answered": 23,
+      "answered_accuracy": 1.0,
+      "budget_oracle_correct": 33,
+      "budget_units": 180,
+      "case_count": 36,
+      "correct": 23,
+      "correct_count_regret": 10,
+      "cost_per_correct": 7.826086956521739,
+      "coverage": 0.6388888888888888,
+      "decisions": [
+        {
+          "case_id": "t08-v0",
+          "correct": true,
+          "cost_units": 7,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t08-v1",
+          "correct": true,
+          "cost_units": 7,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t08-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5722178738003253,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v2",
+          "correct": true,
+          "cost_units": 7,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v0",
+          "correct": true,
+          "cost_units": 7,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.800880572840769,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.8200762411283957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.8200762411283957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t48-v0",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t48-v1",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t48-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t49-v0",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t49-v1",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t49-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t58-v0",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t58-v1",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t58-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t59-v0",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t59-v1",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t59-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        }
+      ],
+      "policy": "large",
+      "recorded_latency_sum_ms": null,
+      "selected_response_provenance_counts": {
+        "RECORDED": 0,
+        "SIMULATED": 23
+      },
+      "spent_units": 180
+    },
+    {
+      "accuracy": 0.6388888888888888,
+      "answered": 23,
+      "answered_accuracy": 1.0,
+      "budget_oracle_correct": 33,
+      "budget_units": 180,
+      "case_count": 36,
+      "correct": 23,
+      "correct_count_regret": 10,
+      "cost_per_correct": 7.826086956521739,
+      "coverage": 0.6388888888888888,
+      "decisions": [
+        {
+          "case_id": "t08-v0",
+          "correct": true,
+          "cost_units": 7,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t08-v1",
+          "correct": true,
+          "cost_units": 7,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t08-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5722178738003253,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v2",
+          "correct": true,
+          "cost_units": 7,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v0",
+          "correct": true,
+          "cost_units": 7,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.800880572840769,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.8200762411283957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.8200762411283957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t48-v0",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t48-v1",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t48-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t49-v0",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t49-v1",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t49-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t58-v0",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t58-v1",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t58-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t59-v0",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t59-v1",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t59-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        }
+      ],
+      "policy": "heuristic",
+      "recorded_latency_sum_ms": null,
+      "selected_response_provenance_counts": {
+        "RECORDED": 0,
+        "SIMULATED": 23
+      },
+      "spent_units": 180
+    },
+    {
+      "accuracy": 0.6944444444444444,
+      "answered": 28,
+      "answered_accuracy": 0.8928571428571429,
+      "budget_oracle_correct": 33,
+      "budget_units": 180,
+      "case_count": 36,
+      "correct": 25,
+      "correct_count_regret": 8,
+      "cost_per_correct": 7.2,
+      "coverage": 0.7777777777777778,
+      "decisions": [
+        {
+          "case_id": "t08-v0",
+          "correct": true,
+          "cost_units": 7,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t08-v1",
+          "correct": true,
+          "cost_units": 7,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t08-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5722178738003253,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t09-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t18-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.2395537812520734,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5696685601399404,
+          "status": "answered"
+        },
+        {
+          "case_id": "t19-v2",
+          "correct": true,
+          "cost_units": 7,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.5542778916089411,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v0",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.800880572840769,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v1",
+          "correct": false,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.8200762411283957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t28-v2",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.8200762411283957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t29-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t38-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v1",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t39-v2",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.33128603050510824,
+          "status": "answered"
+        },
+        {
+          "case_id": "t48-v0",
+          "correct": true,
+          "cost_units": 8,
+          "model_id": "large",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t48-v1",
+          "correct": false,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t48-v2",
+          "correct": true,
+          "cost_units": 1,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.3849527540597957,
+          "status": "answered"
+        },
+        {
+          "case_id": "t49-v0",
+          "correct": false,
+          "cost_units": 2,
+          "model_id": "small",
+          "response_provenance": "SIMULATED",
+          "small_success_probability": 0.19957971075972916,
+          "status": "answered"
+        },
+        {
+          "case_id": "t49-v1",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t49-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t58-v0",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t58-v1",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t58-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t59-v0",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t59-v1",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        },
+        {
+          "case_id": "t59-v2",
+          "correct": false,
+          "cost_units": 0,
+          "model_id": null,
+          "status": "abstained_budget"
+        }
+      ],
+      "policy": "learned",
+      "recorded_latency_sum_ms": null,
+      "selected_response_provenance_counts": {
+        "RECORDED": 0,
+        "SIMULATED": 28
+      },
+      "spent_units": 180
+    }
+  ],
+  "response_provenance": [
+    "SIMULATED"
+  ],
+  "router": {
+    "calibration": [
+      -0.3898271650228363,
+      1.451578027802797
+    ],
+    "calibration_budget_units": 180,
+    "calibration_hash": "68fc17b404d1b5314e4d9fca027ec3c1e301a90d27335f9ab58e3dc210f21acd",
+    "calibration_template_ids": [
+      "structure-03e46b5f3966b6ac",
+      "structure-17aa8dbe7a84aab5",
+      "structure-38d627721642bcf9",
+      "structure-4eeb6ee8878cbebf",
+      "structure-65fe776a7b17d1ec",
+      "structure-67219c010f25bb22",
+      "structure-6b05831ea13fab76",
+      "structure-af4e08ec5531bc9f",
+      "structure-cc6757d85cebcf58",
+      "structure-d6119ef7e1e288bd",
+      "structure-eb57744487a534da",
+      "structure-f21d6cfc5f6be3de"
+    ],
+    "model_type": "logistic_success_predictor_with_platt_calibration",
+    "schema_version": 2,
+    "threshold": 0.7,
+    "training_hash": "10545fc7d7eec5b8abae708910c2e9e8f8ea8849e663e2beaa4d6f03e01d6fd7",
+    "training_template_ids": [
+      "structure-06e70e1baddbcb05",
+      "structure-078797adb78f4893",
+      "structure-0e4b0c185bd53d70",
+      "structure-0ec1a0d99c6981c3",
+      "structure-1eb0dd572cafffbd",
+      "structure-21eed5a77899265d",
+      "structure-22d189bb96639adc",
+      "structure-28638ae4e4b9b214",
+      "structure-2c8add15dfd15a55",
+      "structure-32fe5bf4119091b8",
+      "structure-3e6ad0eec28d182c",
+      "structure-47b1fbff61784ad7",
+      "structure-47f0fb8061fa2883",
+      "structure-52fe31162a9bad32",
+      "structure-62175dee3c3d5b78",
+      "structure-69887a9a85590395",
+      "structure-6bb7197e66edb9e8",
+      "structure-6e117b71fa2b2476",
+      "structure-74cb7a4c333eeee0",
+      "structure-7fc440371bafd033",
+      "structure-88fe9c08c690d030",
+      "structure-966ef8e1624574f6",
+      "structure-96d1e935cc6ee495",
+      "structure-9a8fbbb8f0166101",
+      "structure-9d785f321d948e05",
+      "structure-a4f150b9d90e6605",
+      "structure-b7574667b125e16e",
+      "structure-ba2908368c8504a8",
+      "structure-c49d918599480154",
+      "structure-c4c435e2562e9c05",
+      "structure-dac691d35e219634",
+      "structure-e04ca5cf69c318cc",
+      "structure-e7f032717c37882d",
+      "structure-e9cf6cbb32f95e52",
+      "structure-f73fe8273bf42be1",
+      "structure-fcb04012c7dfed6d"
+    ],
+    "weights": [
+      2.115897315938553,
+      -0.7169291459549028,
+      -1.1804744913863678,
+      0.25833647045665603,
+      -0.8086623982898052,
+      -1.2476164769158335
+    ]
+  },
+  "schema_version": 2,
+  "source_models": [],
+  "split_counts": {
+    "calibration": 36,
+    "test": 36,
+    "train": 108
+  },
+  "test_response_provenance": [
+    "SIMULATED"
+  ]
+}
