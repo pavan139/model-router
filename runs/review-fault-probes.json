@@ -1,0 +1,50 @@
+{
+  "method": "explicit_selected_source_fault_probes",
+  "baseline_passed": true,
+  "scope": "Selected behaviors edited in this review; not whole-project mutation coverage or a TestProof score.",
+  "comparison_base": "reviewed working-tree source; repository had no HEAD during the audit",
+  "total": 5,
+  "killed": 5,
+  "outcomes": [
+    {
+      "id": "canonical-structure-leakage",
+      "file": "src/model_router/data.py",
+      "line": 241,
+      "status": "killed",
+      "tests_run": 31,
+      "returncode": 1
+    },
+    {
+      "id": "exact-budget-equality",
+      "file": "src/model_router/core.py",
+      "line": 259,
+      "status": "killed",
+      "tests_run": 31,
+      "returncode": 1
+    },
+    {
+      "id": "dispatch-budget-equality",
+      "file": "src/model_router/core.py",
+      "line": 115,
+      "status": "killed",
+      "tests_run": 31,
+      "returncode": 1
+    },
+    {
+      "id": "test-provenance",
+      "file": "src/model_router/core.py",
+      "line": 416,
+      "status": "killed",
+      "tests_run": 31,
+      "returncode": 1
+    },
+    {
+      "id": "bounded-import-read",
+      "file": "src/model_router/data.py",
+      "line": 277,
+      "status": "killed",
+      "tests_run": 31,
+      "returncode": 1
+    }
+  ]
+}
